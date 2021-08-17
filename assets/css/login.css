@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(/assets/images/login_bg.jpg) no-repeat top left /cover;
+}
+
+.loginAndReg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 320px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.title {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.triggle {
+    float: right;
+}
+
+#reg {
+    display: none;
+}
